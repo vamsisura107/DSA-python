@@ -36,7 +36,7 @@ l=SingleLinkedList()
 n=Node(10)
 l.head=n
 n1=Node(20)
-l.next=n1
+l.head.next=n1
 n2=Node(30)
 n1.next=n2
 l.insertion_at_beginning(5)
