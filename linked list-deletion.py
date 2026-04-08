@@ -16,7 +16,7 @@ class SingleLinkedList:
             temp=temp.next
             prev=prev.next
         prev.next=None
-    def delete_position(self,pos,data):
+    def delete_position(self,pos):
         prev=self.head
         temp=self.head.next
         for i in range(1,pos-1):
