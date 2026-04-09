@@ -35,7 +35,7 @@ class DoubleLinkedList:
         else:
             temp=self.head
             while temp:
-                print(temp.data,"-->",end=" ")
+                print(temp.data,"<-->",end=" ")
                 temp=temp.next
 l=DoubleLinkedList()
 n1=Node(20)
