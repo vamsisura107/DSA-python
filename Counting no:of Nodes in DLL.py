@@ -36,4 +36,3 @@ n4.prev=n3
 n3.next=n4
 l.count()
 l.display()
-print()
