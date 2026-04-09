@@ -3,7 +3,7 @@ class Node:
      self.data=data
      self.next=None
      self.prev=None
-class SingleLinkedList:
+class DoubleLinkedList:
     def __init__(self):
         self.head=None
     def is_palindrome(self):
