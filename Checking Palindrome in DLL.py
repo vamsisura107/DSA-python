@@ -3,7 +3,7 @@ class Node:
      self.data=data
      self.next=None
      self.prev=None
-class DoubleLinkedList:
+class doubleLinkedList:
     def __init__(self):
         self.head=None
     def is_palindrome(self):
@@ -26,14 +26,18 @@ class DoubleLinkedList:
             while temp:
                 print(temp.data,"-->",end=" ")
                 temp=temp.next
-l=SingleLinkedList()
-n=Node(10)
-l.head=n
-n1=Node(20)
-l.head.next=n1
+l=doubleLinkedList()
+n1=Node(10)
+l.head=n1
 n2=Node(20)
 n1.next=n2
-n3=Node(10)
+n2.prev=n1
+n3=Node(20)
+n3.prev=n2
 n2.next=n3
+n4=Node(10)
+n3.next=n4
+n4.prev=n3
 l.is_palindrome()
 l.display()
+
