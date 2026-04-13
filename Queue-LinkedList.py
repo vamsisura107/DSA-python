@@ -40,7 +40,7 @@ class Queue:
             print("rear of the queue is ",self.rear.data)
 
 q=Queue()
-while(1):
+while True:
     print("enter the option from below\n1-enqueue\n2-dequeue\n3-display\n4-exit")
     str = input()
     if str == "1":
