@@ -23,7 +23,7 @@ def display():
         print("top element of the stack is",stack[0])
         print()
 stack=list()
-while(1):
+while True:
     print("enter the option from below\n1-push\n2-pop\n3-display\n4-exit")
     str=input()
     if str=="1":
