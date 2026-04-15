@@ -4,5 +4,6 @@ def linear_search(arr, key):
         if arr[i] == key:         
             print("Element found at index:", i)
             return                        
-    print("Element not found")             
-linear_search(arr, 30)
+    print("Element not found")
+n=int(input("eneter the element to be searched:"))
+linear_search(arr, n)
